@@ -2,5 +2,5 @@
 icon: lightbulb-exclamation-on
 ---
 
-# Page
+# GitBook
 
