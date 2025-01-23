@@ -58,22 +58,22 @@ print(z1 / z2)  # 나눗셈: (-0.4117647058823529+0.7058823529411765j)
 *   **`abs()`**: 절댓값 반환
 
     ```python
-    python복사편집print(abs(-5))  # 5
+    print(abs(-5))  # 5
     ```
 *   **`round()`**: 반올림
 
     ```python
-    python복사편집print(round(3.14159, 2))  # 3.14
+    print(round(3.14159, 2))  # 3.14
     ```
 *   **`pow()`**: 거듭제곱
 
     ```python
-    python복사편집print(pow(2, 3))  # 8
+    print(pow(2, 3))  # 8
     ```
 *   **`divmod()`**: 몫과 나머지 반환
 
     ```python
-    python복사편집quotient, remainder = divmod(10, 3)
+    quotient, remainder = divmod(10, 3)
     print(quotient)   # 3
     print(remainder)  # 1
     ```
@@ -82,14 +82,14 @@ print(z1 / z2)  # 나눗셈: (-0.4117647058823529+0.7058823529411765j)
 -   부동소수점 연산은 근사값으로 처리되므로, 비교 시 오차가 발생할 수 있습니다.
 
     ```python
-    python복사편집a = 0.1 + 0.2
+    a = 0.1 + 0.2
     print(a == 0.3)  # False
     print(a)         # 0.30000000000000004
     ```
 -   복소수는 실수부와 허수부로 구성되며, `j`를 허수 단위로 사용합니다.
 
     ```python
-    python복사편집z = 3 + 4j
+    z = 3 + 4j
     print(z.real)  # 3.0
     print(z.imag)  # 4.0
     ```
