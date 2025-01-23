@@ -1,7 +1,6 @@
 # Table of contents
 
-* [GitBook](README.md)
-
 ## 자료형
 
-* [숫자형](undefined/undefined.md)
+* [숫자 자료형](README.md)
+* [문자열 자료형](undefined/undefined-1.md)
